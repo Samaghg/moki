@@ -21,7 +21,8 @@ public class TC1 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://demowebshop.tricentis.com/");
 		System.out.println("execution of before test");
-		
+		System.out.println("execution of before test2");
+
 	}
 	@AfterMethod
 	public void closeapplication() {
